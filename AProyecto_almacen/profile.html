@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editar Perfil de Usuario</title>
+    <link rel="stylesheet" href="CSS/prfile.css">
+</head>
+<body>
+    <div class="dropdown">
+        <button id="dropdownButton">Editar Perfil</button>
+        <div id="dropdownMenu" class="dropdown-content">
+            <form id="editProfileForm">
+                <label for="emailInput">Correo:</label>
+                <input type="email" id="emailInput" required>
+
+                <label for="passwordInput">Contraseña:</label>
+                <input type="password" id="passwordInput" required>
+
+                <label for="profilePictureInput">Foto de Perfil:</label>
+                <input type="file" id="profilePictureInput" accept="image/*">
+
+                <button type="submit" id="saveButton">Guardar</button>
+            </form>
+        </div>
+    </div>
+    <script src="JS/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #9198e5, #66e664);
+}
+.container-fluid {
+    display: flex;
+    width: 700px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.left {
+    width: 50%;
+    background: #4ac29a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+.left h2 {
+    margin-bottom: 10px;
+}
+.left p {
+    text-align: center;
+}
+.right {
+    width: 50%;
+    padding: 40px;
+    background: #2c3e50;
+    color: white;
+}
+.right h2 {
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    padding: 3px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.form-group input:focus {
+    outline: none;
+}
+
+a {
+text-decoration: none;
+color: white;
+
+}
+.submit:hover{
+background-color: #228161;
+cursor: pointer;
+color: WHITE;
+
+
+}
+.submit{
+    background-color: #4ac29a;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    width: 113px;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+}
+.reset{
+    background-color: #c90707;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    width: 113px;
+    height: 45px;
+    font-size: 20px;
+    color: white;   
+}
+.reset:hover{
+    background-color: #890303;
+    cursor: pointer;
+    color: WHITE;
+ 
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.closeBtn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.user-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
